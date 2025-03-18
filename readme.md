@@ -4,11 +4,11 @@ This project is a FastAPI application that provides endpoints for managing users
 
 ## Endpoints
 
-- `POST /`: Create a new user
-- `GET /search`: Search for users by name
-- `GET /{id}`: Get a user by ID
-- `PUT /{id}`: Update a user by ID
-- `DELETE /{id}`: Delete a user by ID
+- `POST /users/`: Create a new user
+- `GET /users/search`: Search for users by name
+- `GET /users/{id}`: Get a user by ID
+- `PUT /users/{id}`: Update a user by ID
+- `DELETE /users/{id}`: Delete a user by ID
 
 ## Models
 
